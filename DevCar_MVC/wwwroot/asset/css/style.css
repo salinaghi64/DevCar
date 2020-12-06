@@ -1,0 +1,399 @@
+@font-face {
+    font-family: 'A Iranian Sans';
+    src: url('../fonts/AIranianSans.eot');
+    src: url('../fonts/AIranianSans.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AIranianSans.woff2') format('woff2'),
+        url('../fonts/AIranianSans.woff') format('woff'),
+        url('../fonts/AIranianSans.ttf') format('truetype');
+}
+
+*{
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+    font-family: 'A Iranian Sans';
+}
+
+body{
+    direction: rtl;
+}
+#header{
+    display: flex;
+    justify-content:space-around;
+    height: 40px;
+    width: 100%;
+    background-color:#fff;
+    margin: 30px 10px ;
+    padding: 5px;
+}
+
+nav {
+     width:100%;
+     height: 20px;
+     background-color:orange;
+}
+.menu{
+    display: flex;
+    justify-content:center;
+   
+    
+  
+
+
+    
+    
+}
+.menu li{
+  
+    list-style: none;
+    border-left: 1px solid black;
+
+   
+ 
+
+    
+    
+}
+.menu li a{
+   
+   
+    color:darkblue;
+    padding: 1rem;
+    margin: 0.3rem;
+    text-decoration: none;
+    border-radius: 50px;
+    transition-duration: 0.9s;
+   
+   
+   
+
+}
+.menu li a:hover{
+   
+    border: 1px solid #e7e7e7;
+    background-color: #219ebc;
+    
+    color:#fff;
+   
+}
+
+main{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background: url('../image/tiggo5.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+
+}
+
+
+.main-shutter{
+    position: absolute;
+    margin-top: 400px;
+    height:150px;
+    width: 100%;
+    color:#fff;
+   background-color: rgba(0,0,0,0.38);
+    text-align: center;
+    
+
+    
+}
+.main-shutter>h1{
+   
+    margin-top:30px;
+}
+
+.main-shutter>p{
+    margin-top:16px;
+
+}
+
+.liner-First{
+    display: inline-block;
+    height: 5px;
+    width: 70px;
+    margin-top: 25px;
+    background-color: yellow;
+  
+   
+}
+#wz-selection{
+    display: flex;
+    justify-content: center;
+    background-color:#fff;
+}
+
+img{
+    margin: 30px 10px;
+    width:60px;
+}
+
+.parent{
+    display: flex;
+
+  
+}
+.Inventory-first{
+  
+    width:50%;
+    height: 400px;
+    text-align: center;
+    background-color:orange;
+}
+.Inventory-first >h2 , .Inventory-second>h2{
+    margin-top: 200px;
+    font-size: 32px;
+
+}
+.Inventory-first a , .Inventory-second  a{
+     
+    text-decoration: none;
+    color:#fff;
+
+}
+
+
+.Inventory-first h4 , .Inventory-second  h4{
+    margin-top: 20px;
+    color:#fff;
+}
+.Inventory-second{
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.80);
+}
+.wz-section{
+  
+   text-align: center;
+    width:100%;
+    height:150px;
+    background-color:#fff;
+}
+
+.wz-section > h2{
+   
+    font-size: 19px;
+   
+
+
+}
+.txt-first{
+    margin-top: 20px;
+    font-weight:600;
+
+}
+.txt-second{
+    color:#666666;
+    margin-top:5px;
+    line-height: 2;
+}
+.liner-Second{
+display: inline-block;
+height: 5px;
+width: 70px;
+margin:20px auto 0px;
+background-color: yellow;
+
+}
+ /* ------------------Edit Style--------------- */
+.wz-element-change{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.box{
+    width: 32%;
+}
+.box-image img{
+    width:100%;
+    height: 250px;
+    margin:none;
+}
+.box-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box-text > a{
+    display: inline-block;
+    padding: 7px;
+    color:#000;
+    text-decoration: none
+}
+/* ------------------End Style--------------- */
+  
+.container{
+   
+    margin-top: 20px;
+    text-align: right;
+    padding: 10px;
+}
+.link{
+    position: relative;
+    animation: Animation 1s linear 3s  forwards;
+    text-decoration: none;
+    background-color:rgb(255, 218, 31);
+    padding: 5px 10px;
+    color:#fff;
+    border:2px solid rgb(235, 196, 0);
+
+}
+
+@keyframes Animation{
+    0%{
+        top:10px;
+        right:0px;
+    }
+
+    100%{
+        top:10px;
+        right:440px;
+    }
+
+}
+
+/*----------------Contact-us---------------*/
+.contact-container{
+    padding: 40px;
+    width: 500px;
+    margin:0 auto;
+}
+
+.formgroup{
+    margin-bottom: 30px;
+}
+.formgroup label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.formgroup input, .formgroup textarea{
+    width: 100%;
+    padding: 7px;
+    border:1 solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-container p{
+    font-size: 13px;
+    font-weight: 600px;
+}
+.btn-submit{
+     
+    padding:8px 20px;
+    border: 1px solid #ddd;
+    color:#fff;
+    background-color:#333;
+    border-radius: 5px;
+
+    
+}
+
+
+.box1{
+    padding: 20px 30px;
+    width: 33.3%;
+    float: right;
+    padding:10px 30px;
+    text-align: center;
+}
+
+
+
+
+.bg-content{
+background-color: #444;
+color: white;
+} 
+
+
+
+
+.box1 p{
+font-size:14px;
+}
+
+.btn-submit:hover{
+color:orange;
+
+}
+
+/*----------------End Contact-------------------------*/
+
+.box-container{
+    margin-top: 40px;
+    width: 100%;
+    height: 350px;
+    background-color: #e7e7e7;
+
+}
+
+.box-item {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+}
+.box-elemnet{
+display:flex;
+ justify-content:center;
+   padding: 5px;
+}
+
+
+.box-icons-txt{
+    width:20%;
+    color: rgba(0, 0, 0, 0.80);
+    
+}
+
+.box-img img{
+
+    width: 80%;
+    height: 100px;
+    margin-top: 40px;
+}
+.section-yellow{
+    display: block;
+    width: 100%;
+    height: 300px;
+    background-color:rgb(255,218,31);
+    margin-top:40px;
+    padding: 90px;
+    text-align: center;
+    font-weight: 100;
+
+}
+
+.section-yellow > .box-txt{
+   
+    font-size: 25px;
+  
+}
+
+
+.btn{
+    padding: 5px 20px;
+    background-color: black;
+    margin: 60px auto;
+    
+
+}
+
+.btn > a{
+    text-decoration: none;
+    color:#fff;
+}
+
+
+#Parent-Cars{
+    height:400px;
+    width: 100%;
+ background: url('/asset/image/cars.jpg') no-repeat center center/cover;
+}
+
+
+

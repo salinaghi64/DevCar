@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\asset\fonts\AIranianSans.woff2" />
+    <None Include="wwwroot\asset\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\asset\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\asset\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\asset\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\asset\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\asset\webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+
 </Project>
